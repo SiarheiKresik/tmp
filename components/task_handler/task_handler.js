@@ -34,7 +34,7 @@ export default function createTaskHandler(callback) {
             mainCharacter.attack();            
             
             setTimeout(() => {
-                monsterHealthBar.decreaseBy(100);
+                monsterHealthBar.decreaseBy(34);
             }, 1600);   
 
             setTimeout(() => {
@@ -68,7 +68,7 @@ export default function createTaskHandler(callback) {
             if(random > 0) {
                 monster.attack();
                 setTimeout(() => {
-                    mainCharacterHealthBar.decreaseBy(100);//////////
+                    mainCharacterHealthBar.decreaseBy(monsterCurrentPower);
                 }, 2000);               
             } else {
                 monster.attack(true);
