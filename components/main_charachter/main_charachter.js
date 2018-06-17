@@ -5,13 +5,13 @@ export default function createMainCharacter(canvas, scaleFactor, canvasWidth, ca
           mainCharacterComponents = {};        
     
     const mainCharacterImageSources = {   
-      leftArm: '../../resources/images/main-character/leftArm.png', 
-      legs: '../../resources/images/main-character/legs2.png',
-      torso: '../../resources/images/main-character/torso.png',
-      head: '../../resources/images/main-character/head.png',
-      rightArm: '../../resources/images/main-character/rightArm.png',
-      hair: '../../resources/images/main-character/hair.png',
-      eyes: '../../resources/images/main-character/eyes.png'
+      leftArm: './resources/images/main-character/leftArm.png', 
+      legs: './resources/images/main-character/legs2.png',
+      torso: './resources/images/main-character/torso.png',
+      head: './resources/images/main-character/head.png',
+      rightArm: './resources/images/main-character/rightArm.png',
+      hair: './resources/images/main-character/hair.png',
+      eyes: './resources/images/main-character/eyes.png'
     };
   
     const mainCharacterBodyPartPositions = {   
